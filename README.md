@@ -50,7 +50,7 @@ This project covers:
 
    # Client-side SDK
    NEXT_PUBLIC_AUTHACTION_TENANT_DOMAIN=your-tenant-name.tenant-region.authaction.com
-   NEXT_PUBLIC_AUTHACTION_APP_ID=your-app-id
+   NEXT_PUBLIC_AUTHACTION_APP_ID=your-passkey-plus-app-id
 
    ```
 
@@ -89,8 +89,8 @@ Handles both registration and authentication:
 - **Validates** `externalId` & `displayName` in the request body
 - **Fetches** an M2M token (cached to avoid redundant calls)
 - **Explicit fetch** to one of:
-  - `/api/v1/passkey-plus/{APP_ID}/transaction/register`
-  - `/api/v1/passkey-plus/{APP_ID}/transaction/authenticate`
+  - `/api/v1/passkey-plus/{PASSKEY_PLUS_APP_ID}/transaction/register`
+  - `/api/v1/passkey-plus/{PASSKEY_PLUS_APP_ID}/transaction/authenticate`
 - **Returns**  
   ```json
   {

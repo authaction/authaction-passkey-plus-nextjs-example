@@ -27,7 +27,7 @@ This project covers:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-org/passkey-plus-nextjs-example.git
+   git clone https://github.com/authaction/passkey-plus-nextjs-example.git
    cd passkey-plus-nextjs-example
    ```
 2. **Install Dependencies**:

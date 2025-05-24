@@ -45,7 +45,7 @@ This project covers:
    AUTHACTION_TENANT_DOMAIN=your-tenant.authaction.com
    AUTHACTION_PASSKEY_CLIENT_ID=your-m2m-client-id
    AUTHACTION_PASSKEY_CLIENT_SECRET=your-m2m-client-secret
-   AUTHACTION_APP_ID=your-app-id
+   AUTHACTION_APP_ID=your-passkey-plus-app-id
    NEXTAUTH_SECRET=random-string
 
    # Client-side SDK

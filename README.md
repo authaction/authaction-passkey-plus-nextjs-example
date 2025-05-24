@@ -49,7 +49,7 @@ This project covers:
    NEXTAUTH_SECRET=random-string
 
    # Client-side SDK
-   NEXT_PUBLIC_AUTHACTION_TENANT_DOMAIN=your-tenant.authaction.com
+   NEXT_PUBLIC_AUTHACTION_TENANT_DOMAIN=your-tenant-name.tenant-region.authaction.com
    NEXT_PUBLIC_AUTHACTION_APP_ID=your-app-id
 
    ```

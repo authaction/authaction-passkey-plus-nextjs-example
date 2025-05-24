@@ -1,6 +1,6 @@
 # passkey-plus-nextjs-example
 
-This is a Next.js application demonstrating how to integrate passkey-based authentication using the AuthAction Passkey+ SDK and custom API routes.
+This is a Next.js application demonstrating how to integrate passkey-based authentication using the AuthAction Passkey Plus + SDK and custom API routes.
 
 ## Overview
 

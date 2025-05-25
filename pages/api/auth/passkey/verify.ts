@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { getAccessToken } from "./register";
+import { getAccessToken } from "../../../../utils/utils";
 
 const { AUTHACTION_TENANT_DOMAIN: TENANT_DOMAIN = "", AUTHACTION_APP_ID: APP_ID = "" } = process.env;
 

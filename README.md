@@ -66,19 +66,31 @@ This project covers:
 
 2. **Register a passkey:**
 
-   Navigate to http://localhost:3000
-   Enter an External ID and Display Name
+   Navigate to http://localhost:3000  
+   Enter an External ID and Display Name  
    Click Register with Passkey and follow your authenticator
+
+   <img src="images/image1.png" alt="Register with Passkey" width="400" />
+
+   ### Register with a passkey
+
+   <img src="images/image3.png" alt="Login with Passkey" width="400" />
 
 3. **Authenticate:**
 
-   On the same form, click Login with Passkey
+   On the same form, click Login with Passkey  
    Follow your platform authenticator to sign in
+
+   <img src="images/image4.png" alt="Authenticate" width="400" />
 
 4. **View Dashboard:**
 
-   After successful auth, you’ll be redirected to /dashboard
-   Dashboard reads { username, email } from localStorage and displays it
+   After successful auth, you’ll be redirected to `/dashboard`  
+   Dashboard reads `{ username, email }` from `localStorage` and displays it
+
+   <img src="images/image2.png" alt="Dashboard" width="400" />
+
+
 
 ## Code Explanation
 

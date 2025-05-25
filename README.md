@@ -18,7 +18,7 @@ This project covers:
 2. **Next.js** project scaffolded (e.g. `npx create-next-app`)  
 3. **AuthAction Passkey+** enabled tenant with:  
    - Tenant domain  
-   - M2M Client ID & Secret  
+   - Passkey Plus application Client ID & Secret  
    - App ID  
 4. **@authaction/passkey-plus-sdk** installed  
 
@@ -42,9 +42,9 @@ This project covers:
 
    ```bash
    # Server-side (for API routes)
-   AUTHACTION_TENANT_DOMAIN=your-tenant.authaction.com
-   AUTHACTION_PASSKEY_CLIENT_ID=your-m2m-client-id
-   AUTHACTION_PASSKEY_CLIENT_SECRET=your-m2m-client-secret
+   AUTHACTION_TENANT_DOMAIN=your-tenant.tenant-region.authaction.com
+   AUTHACTION_PASSKEY_CLIENT_ID=your-passkey-plus-client-id
+   AUTHACTION_PASSKEY_CLIENT_SECRET=your-passkey-plus-client-secret
    AUTHACTION_APP_ID=your-passkey-plus-app-id
    NEXTAUTH_SECRET=random-string
 

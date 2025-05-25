@@ -52,7 +52,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const token = await getAccessToken();
     let apiRes;
       apiRes = await fetch(
-        `https://${TENANT_DOMAIN}/api/v1/passkey-plus/${APP_ID}/transaction/register`,
+        `https://${TENANT_DOMAIN}/api/v1/passkey-plus/${APP_ID}/transaction/authenticate`,
         {
           method: "POST",
           headers: {
@@ -62,6 +62,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
           body: JSON.stringify({ externalId, displayName }),
         }
       );
+
     if (!apiRes.ok) {
       const err = await apiRes.text();
       return res.status(apiRes.status).json({ error: err });
